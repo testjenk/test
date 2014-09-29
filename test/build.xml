@@ -1,7 +1,7 @@
 <project default="test">
 <target name="test">
 <copy todir="/var/www/html/">
-<fileset dir="test"/>
+<fileset dir="test" include"**/*.index"/>
 </copy>
 </target>
 </project>
