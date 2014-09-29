@@ -2,7 +2,7 @@
 <target name="test">
 <copy todir="/var/www/html/">
 <fileset dir="." />
-<excludes=".git/**"/>
+<exclude name=".git/**" />
  <exclude name="build.xml"/>
 <fileset />
 </copy>
