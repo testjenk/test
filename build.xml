@@ -1,7 +1,7 @@
 <project default="test">
 <target name="test">
 <copy todir="/var/www/html/">
-<fileset dir="." excludes="**/*.git"/>
+<fileset dir="." excludes=".git/**"/>
 </copy>
 </target>
 </project>
