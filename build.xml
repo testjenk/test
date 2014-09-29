@@ -1,0 +1,7 @@
+<project default="test">
+<target>
+<copy todir="/var/www/html/">
+<fileset dir="."/>
+</copy>
+</target>
+</project>
