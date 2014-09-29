@@ -4,6 +4,7 @@
 <fileset dir="." >
 <exclude name=".git/**" />
 <exclude name="build.xml" />
+<exclude name="README.md" />
 </fileset>
 </copy>
 </target>
